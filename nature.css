@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /* <!-- this is  upper section 
+  in which we have nav and main headings --> */
+.container{                             
+  background-image: url(img/main.png) ;
+  height: 70vh;
+  background-size: cover
+  ;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  color:azure;
+}
+/* this section of editing of nav in upper */
+ul li {
+  display: inline;
+  }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav ul a{
+  color: azure;
+  text-decoration: none;
+}
+ul{
+  display: flex;
+  gap:25px;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background: transparent;
+  color: azure;
+  border: 1px solid azure;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+.logo{
+  cursor: pointer;
+}
+/* this section is for main heading in upper */
+.love-nature{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top:90px; 
+}
+.love-nature h2{
+  font-size: 3.5rem;
+}
+.love-nature h1{
+  font-size: 7rem;
+  margin-bottom: 10px;
+
+}
+.love-nature p{
+  width: 250px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+section{
+  gap: 40px;
+}
+/* this is a service section  */
+.ourservices{
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  margin-top: 80px;
+}
+.ourservices h1{
+  color:rgb(75, 101, 84);
+  font: 2.5em sans-serif;  
+  font-weight: bold;
+
+}
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  gap: 40px;
+  
+  color:rgb(75, 108, 86);
+  
+}
+.service{
+  width: 34vw;
+  text-align: left;
+  
+}
+.service img{
+  border-radius:8px;
+}
+.service p{
+  width: 350px;
+  font-size: large;
+}
+.image:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+/* this is quotes section */
+.profile{
+  height:40vh ;
+  width:100vw;
+  background-color: rgba(101, 121, 251, 0.094);
+  color:rgb(75, 108, 86);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 35px;
+  margin-top: 80px;
+}
+.jane{
+margin: 15px  200px 30px 200px;
+font-size: 1.9em;
+
+}
+ /* <!-- this is about us section -->  */
+.about{
+display:flex;
+flex-direction: row;
+margin: 80px;
+align-items: center;
+color:rgb(75, 108, 86);
+padding-left: 40px;
+}
+.about h1{
+  font-size: 2em;
+  width: 20em;
+  padding-top: 8px;
+}
+.about p{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.btn-1{
+  background: rgb(255, 189, 57);
+  color:rgb(75, 108, 86);
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 16px;
+}
+/* this is question section  */
+.question{
+background-image: url(img/main-2.png) ;
+height: 70vh;
+background-position: bottom center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 90px;
+color:rgb(75, 108, 86);
+font-size: 20px;
+}
+.question p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+ /* this is a footer section */
+
+.footer{
+  height: 22vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: larger;
+  padding-top: 40px;
+
+} 
+.footer a{
+  color:rgb(75, 108, 86);
+  text-decoration: none;
+ 
+}
+
+.footer p{
+  color:rgb(75, 108, 86);
+  font-size: 1em;
+}
+.link{
+  display: flex;
+  gap: 25px;
+}
+/* ✅ For tablets and below (<= 1024px) */
+@media (max-width: 1024px) {
+ 
+  
+}
+
+/* ✅ For mobile screens (<= 768px) */
+@media (max-width: 768px) {
+ 
+}
+
+/* ✅ For small phones (<= 480px) */
+@media  (max-width: 480px) {
+.ourservices h1{
+  margin-left: 200%;
+}
+.services{
+  flex-direction: column;
+  margin: 400px 70px 0px 70px;
+  padding: 100px;
+}
+.profile{
+  margin-top: 700px;
+  width: 50vh;
+}
+
+
+}
+  
